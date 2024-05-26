@@ -7,11 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46273F132C01C8300002C464 /* Crowd Cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46273F122C01C8300002C464 /* Crowd Cheering.mp3 */; };
+		46273F152C01C9600002C464 /* GO GO GO.wav in Resources */ = {isa = PBXBuildFile; fileRef = 46273F142C01C9600002C464 /* GO GO GO.wav */; };
 		46DD96E22BFC7AD2003E6FF6 /* DokiDokiRaceWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 46DD96E12BFC7AD2003E6FF6 /* DokiDokiRaceWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		46DD96E72BFC7AD2003E6FF6 /* DokiDokiRaceWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD96E62BFC7AD2003E6FF6 /* DokiDokiRaceWatchApp.swift */; };
 		46DD96E92BFC7AD2003E6FF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD96E82BFC7AD2003E6FF6 /* ContentView.swift */; };
 		46DD96EB2BFC7AD3003E6FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DD96EA2BFC7AD3003E6FF6 /* Assets.xcassets */; };
 		46DD96EE2BFC7AD3003E6FF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DD96ED2BFC7AD3003E6FF6 /* Preview Assets.xcassets */; };
+		46DD96FA2BFC7BC5003E6FF6 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD96F92BFC7BC5003E6FF6 /* WorkoutManager.swift */; };
+		46DD96FE2BFCA7C5003E6FF6 /* RaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD96FD2BFCA7C5003E6FF6 /* RaceView.swift */; };
+		46DD97002BFCF06B003E6FF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD96FF2BFCF06B003E6FF6 /* HomeView.swift */; };
+		46DD97022BFD133D003E6FF6 /* TesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD97012BFD133D003E6FF6 /* TesterView.swift */; };
+		46DD97042BFDA65D003E6FF6 /* FeedbackRaceViewWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD97032BFDA65D003E6FF6 /* FeedbackRaceViewWin.swift */; };
+		46DD97062BFDBA68003E6FF6 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD97052BFDBA68003E6FF6 /* Router.swift */; };
+		46DD97082BFDECA5003E6FF6 /* FeedbackRaceViewLost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD97072BFDECA5003E6FF6 /* FeedbackRaceViewLost.swift */; };
+		46DD970B2BFF23C4003E6FF6 /* LevelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD970A2BFF23C4003E6FF6 /* LevelCard.swift */; };
+		46DD97112BFF3225003E6FF6 /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD97102BFF3225003E6FF6 /* LevelSelectView.swift */; };
+		46DD97132BFF5FE2003E6FF6 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD97122BFF5FE2003E6FF6 /* HomeButton.swift */; };
+		46DD97182BFFA562003E6FF6 /* DokiDokiRace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97172BFFA562003E6FF6 /* DokiDokiRace.mp3 */; };
+		46DD971A2BFFAC4B003E6FF6 /* Home Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97192BFFAC4B003E6FF6 /* Home Song.mp3 */; };
+		46DD971E2BFFAFF4003E6FF6 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DD971D2BFFAFF4003E6FF6 /* AudioManager.swift */; };
+		46DD97222BFFB16B003E6FF6 /* Countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97212BFFB16B003E6FF6 /* Countdown.mp3 */; };
+		46DD97242BFFB5CC003E6FF6 /* Success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97232BFFB5CC003E6FF6 /* Success.mp3 */; };
+		46DD97262BFFB5D2003E6FF6 /* Fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97252BFFB5D2003E6FF6 /* Fail.mp3 */; };
+		46DD97282BFFB85C003E6FF6 /* You Win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97272BFFB85C003E6FF6 /* You Win.mp3 */; };
+		46DD972A2BFFB86C003E6FF6 /* You Lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD97292BFFB86C003E6FF6 /* You Lose.mp3 */; };
+		46DD972C2BFFCB2D003E6FF6 /* Crowd Clap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46DD972B2BFFCB2D003E6FF6 /* Crowd Clap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +60,34 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		46273F122C01C8300002C464 /* Crowd Cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Crowd Cheering.mp3"; path = "../../../../../Downloads/Crowd Cheering.mp3"; sourceTree = "<group>"; };
+		46273F142C01C9600002C464 /* GO GO GO.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "GO GO GO.wav"; path = "../../../../../Downloads/GO GO GO.wav"; sourceTree = "<group>"; };
 		46DD96DB2BFC7AD2003E6FF6 /* DokiDokiRaceWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DokiDokiRaceWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DD96E12BFC7AD2003E6FF6 /* DokiDokiRaceWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DokiDokiRaceWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DD96E62BFC7AD2003E6FF6 /* DokiDokiRaceWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokiDokiRaceWatchApp.swift; sourceTree = "<group>"; };
 		46DD96E82BFC7AD2003E6FF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46DD96EA2BFC7AD3003E6FF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46DD96ED2BFC7AD3003E6FF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46DD96F92BFC7BC5003E6FF6 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		46DD96FB2BFC7C62003E6FF6 /* DokiDokiRaceWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "DokiDokiRaceWatch Watch App.entitlements"; sourceTree = "<group>"; };
+		46DD96FD2BFCA7C5003E6FF6 /* RaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceView.swift; sourceTree = "<group>"; };
+		46DD96FF2BFCF06B003E6FF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		46DD97012BFD133D003E6FF6 /* TesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterView.swift; sourceTree = "<group>"; };
+		46DD97032BFDA65D003E6FF6 /* FeedbackRaceViewWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackRaceViewWin.swift; sourceTree = "<group>"; };
+		46DD97052BFDBA68003E6FF6 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		46DD97072BFDECA5003E6FF6 /* FeedbackRaceViewLost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackRaceViewLost.swift; sourceTree = "<group>"; };
+		46DD970A2BFF23C4003E6FF6 /* LevelCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCard.swift; sourceTree = "<group>"; };
+		46DD97102BFF3225003E6FF6 /* LevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectView.swift; sourceTree = "<group>"; };
+		46DD97122BFF5FE2003E6FF6 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		46DD97172BFFA562003E6FF6 /* DokiDokiRace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DokiDokiRace.mp3; path = ../../../../../Downloads/DokiDokiRace.mp3; sourceTree = "<group>"; };
+		46DD97192BFFAC4B003E6FF6 /* Home Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Home Song.mp3"; path = "../../../../../Downloads/Home Song.mp3"; sourceTree = "<group>"; };
+		46DD971D2BFFAFF4003E6FF6 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		46DD97212BFFB16B003E6FF6 /* Countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Countdown.mp3; path = ../../../../../Downloads/Countdown.mp3; sourceTree = "<group>"; };
+		46DD97232BFFB5CC003E6FF6 /* Success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Success.mp3; path = ../../../../../Downloads/Success.mp3; sourceTree = "<group>"; };
+		46DD97252BFFB5D2003E6FF6 /* Fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fail.mp3; path = ../../../../../Downloads/Fail.mp3; sourceTree = "<group>"; };
+		46DD97272BFFB85C003E6FF6 /* You Win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "You Win.mp3"; path = "../../../../../Downloads/You Win.mp3"; sourceTree = "<group>"; };
+		46DD97292BFFB86C003E6FF6 /* You Lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "You Lose.mp3"; path = "../../../../../Downloads/You Lose.mp3"; sourceTree = "<group>"; };
+		46DD972B2BFFCB2D003E6FF6 /* Crowd Clap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Crowd Clap.mp3"; path = "../../../../../Downloads/Crowd Clap.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +121,10 @@
 		46DD96E52BFC7AD2003E6FF6 /* DokiDokiRaceWatch Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				46DD97142BFF9DA0003E6FF6 /* Assets */,
+				46DD96FC2BFCA792003E6FF6 /* View */,
+				46DD96FB2BFC7C62003E6FF6 /* DokiDokiRaceWatch Watch App.entitlements */,
+				46DD96F82BFC7B9E003E6FF6 /* Model */,
 				46DD96E62BFC7AD2003E6FF6 /* DokiDokiRaceWatchApp.swift */,
 				46DD96E82BFC7AD2003E6FF6 /* ContentView.swift */,
 				46DD96EA2BFC7AD3003E6FF6 /* Assets.xcassets */,
@@ -92,6 +139,56 @@
 				46DD96ED2BFC7AD3003E6FF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46DD96F82BFC7B9E003E6FF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46DD96F92BFC7BC5003E6FF6 /* WorkoutManager.swift */,
+				46DD97012BFD133D003E6FF6 /* TesterView.swift */,
+				46DD97052BFDBA68003E6FF6 /* Router.swift */,
+				46DD971D2BFFAFF4003E6FF6 /* AudioManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46DD96FC2BFCA792003E6FF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46DD97092BFF23AB003E6FF6 /* Component */,
+				46DD96FD2BFCA7C5003E6FF6 /* RaceView.swift */,
+				46DD96FF2BFCF06B003E6FF6 /* HomeView.swift */,
+				46DD97032BFDA65D003E6FF6 /* FeedbackRaceViewWin.swift */,
+				46DD97072BFDECA5003E6FF6 /* FeedbackRaceViewLost.swift */,
+				46DD97102BFF3225003E6FF6 /* LevelSelectView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46DD97092BFF23AB003E6FF6 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				46DD970A2BFF23C4003E6FF6 /* LevelCard.swift */,
+				46DD97122BFF5FE2003E6FF6 /* HomeButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		46DD97142BFF9DA0003E6FF6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				46DD97172BFFA562003E6FF6 /* DokiDokiRace.mp3 */,
+				46DD97192BFFAC4B003E6FF6 /* Home Song.mp3 */,
+				46DD97212BFFB16B003E6FF6 /* Countdown.mp3 */,
+				46DD97232BFFB5CC003E6FF6 /* Success.mp3 */,
+				46DD97252BFFB5D2003E6FF6 /* Fail.mp3 */,
+				46DD97272BFFB85C003E6FF6 /* You Win.mp3 */,
+				46DD97292BFFB86C003E6FF6 /* You Lose.mp3 */,
+				46DD972B2BFFCB2D003E6FF6 /* Crowd Clap.mp3 */,
+				46273F122C01C8300002C464 /* Crowd Cheering.mp3 */,
+				46273F142C01C9600002C464 /* GO GO GO.wav */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +277,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DD972A2BFFB86C003E6FF6 /* You Lose.mp3 in Resources */,
 				46DD96EE2BFC7AD3003E6FF6 /* Preview Assets.xcassets in Resources */,
+				46DD97262BFFB5D2003E6FF6 /* Fail.mp3 in Resources */,
+				46DD971A2BFFAC4B003E6FF6 /* Home Song.mp3 in Resources */,
+				46DD97242BFFB5CC003E6FF6 /* Success.mp3 in Resources */,
 				46DD96EB2BFC7AD3003E6FF6 /* Assets.xcassets in Resources */,
+				46DD97282BFFB85C003E6FF6 /* You Win.mp3 in Resources */,
+				46273F132C01C8300002C464 /* Crowd Cheering.mp3 in Resources */,
+				46DD97222BFFB16B003E6FF6 /* Countdown.mp3 in Resources */,
+				46273F152C01C9600002C464 /* GO GO GO.wav in Resources */,
+				46DD972C2BFFCB2D003E6FF6 /* Crowd Clap.mp3 in Resources */,
+				46DD97182BFFA562003E6FF6 /* DokiDokiRace.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,8 +299,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DD97082BFDECA5003E6FF6 /* FeedbackRaceViewLost.swift in Sources */,
+				46DD97062BFDBA68003E6FF6 /* Router.swift in Sources */,
 				46DD96E92BFC7AD2003E6FF6 /* ContentView.swift in Sources */,
 				46DD96E72BFC7AD2003E6FF6 /* DokiDokiRaceWatchApp.swift in Sources */,
+				46DD97132BFF5FE2003E6FF6 /* HomeButton.swift in Sources */,
+				46DD970B2BFF23C4003E6FF6 /* LevelCard.swift in Sources */,
+				46DD96FA2BFC7BC5003E6FF6 /* WorkoutManager.swift in Sources */,
+				46DD97022BFD133D003E6FF6 /* TesterView.swift in Sources */,
+				46DD97112BFF3225003E6FF6 /* LevelSelectView.swift in Sources */,
+				46DD97002BFCF06B003E6FF6 /* HomeView.swift in Sources */,
+				46DD96FE2BFCA7C5003E6FF6 /* RaceView.swift in Sources */,
+				46DD97042BFDA65D003E6FF6 /* FeedbackRaceViewWin.swift in Sources */,
+				46DD971E2BFFAFF4003E6FF6 /* AudioManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DokiDokiRaceWatch Watch App/DokiDokiRaceWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DokiDokiRaceWatch Watch App/Preview Content\"";
@@ -334,6 +453,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = DokiDokiRaceWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please Allow to use All Features";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please Allow to use All Features";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -357,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DokiDokiRaceWatch Watch App/DokiDokiRaceWatch Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DokiDokiRaceWatch Watch App/Preview Content\"";
@@ -364,6 +486,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = DokiDokiRaceWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Please Allow to use All Features";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Please Allow to use All Features";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
